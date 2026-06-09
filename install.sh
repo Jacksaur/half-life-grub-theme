@@ -46,4 +46,4 @@ elif command -v grub-mkconfig &> /dev/null; then
     grub-mkconfig -o /boot/grub/grub.cfg
 fi
 
-echo "✅ Local installation complete."
+echo "✅ Installation complete."
