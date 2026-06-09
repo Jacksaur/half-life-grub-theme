@@ -1,26 +1,22 @@
-# Half-Life GRUB Theme - Black Mesa Crimson Variant
+# Half-Life GRUB Theme - Lambda Crimson Variant
 title-text: ""
 desktop-image: "background.png"
 desktop-color: "#000000"
 
-# 1. Boot Menu Configuration
 + boot_menu {
   left = 10%
   top = 60%
   width = 60%
   height = 30%
   
-  # Text Styling
   item_color = "#FFFFFF"
   selected_item_color = "#fd7561"
   item_padding = 8
   item_spacing = 10
   
-  # Targets your 3-patch slices: box_w.png, box_c.png, box_e.png
   selected_item_pixmap_style = "selected_box/box_*.png"
 }
 
-# 2. Static "Status:" Label
 + label {
   color = "#FFFFFF"
   left = 75%
@@ -30,7 +26,6 @@ desktop-color: "#000000"
   text = "STATUS: "
 }
 
-# 3. Dynamic Countdown Number
 + label {
   color = "#FFFFFF"
   left = 87%
