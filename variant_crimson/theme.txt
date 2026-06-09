@@ -1,4 +1,4 @@
-# Half-Life GRUB Theme - Lambda Crimson Variant
+# Half-Life 1 GRUB Theme - Lambda Crimson Variant
 title-text: ""
 desktop-image: "background.png"
 desktop-color: "#000000"
