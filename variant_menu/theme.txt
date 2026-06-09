@@ -1,4 +1,4 @@
-# Half-Life GRUB Theme - Black Mesa Crimson Variant
+# Half-Life GRUB Theme - Main Menu Variant
 title-text: ""
 desktop-image: "background.png"
 desktop-color: "#000000"
@@ -11,8 +11,8 @@ desktop-color: "#000000"
   height = 30%
   
   # Text Styling
-  item_color = "#FFFFFF"
-  selected_item_color = "#fd7561"
+  item_color = "#f3bb21"          # Your requested menu color
+  selected_item_color = "#FFFFFF" # White for the active selection
   item_padding = 8
   item_spacing = 10
   
@@ -20,20 +20,20 @@ desktop-color: "#000000"
   selected_item_pixmap_style = "selected_box/box_*.png"
 }
 
-# 2. Static "Status:" Label
+# 2. Static "booting" Label
 + label {
-  color = "#FFFFFF"
+  color = "#8d6b22"
   left = 75%
   top = 90%
   width = 12%
   align = "right"
-  text = "STATUS: "
+  text = "LOADING..."
 }
 
 # 3. Dynamic Countdown Number
 + label {
   color = "#FFFFFF"
-  left = 87%
+  left = 90%
   top = 90%
   width = 5%
   align = "left"

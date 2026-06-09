@@ -5,24 +5,28 @@ if [ "$EUID" -ne 0 ]; then
   exit 1
 fi
 
-echo "============================"
-echo "   Half-Life GRUB Theme Installer"
-echo "============================"
+echo "==========================================="
+echo "   Half-Life GRUB Theme Local Installer"
+echo "==========================================="
 echo "Select your theme variant:"
-echo "1) Hazard Orange (#fe5a02)"
-echo "2) Lambda Crimson (#a91408)"
-read -p "Enter choice [1 or 2]: " choice
+echo "1) Half Life 1 Menu"
+echo "2) Lambda Crimson"
+echo "3) Hazard Orange"
+read -p "Enter choice [1, 2, or 3]: " choice
 
 THEME_DIR="/boot/grub/themes/half-life"
 rm -rf "$THEME_DIR"
 mkdir -p "$THEME_DIR"
 
-if [ "$choice" -eq 1 ]; then
-    echo "⏳ Installing Hazard Orange variant..."
+if [ "$choice" -eq 3 ]; then
+    echo "⏳ Installing Hazard Orange..."
     cp -r variant_orange/* "$THEME_DIR/"
 elif [ "$choice" -eq 2 ]; then
-    echo "⏳ Installing Lambda Crimson variant..."
+    echo "⏳ Installing Lambda Crimson..."
     cp -r variant_crimson/* "$THEME_DIR/"
+elif [ "$choice" -eq 1 ]; then
+    echo "⏳ Installing Half Life 1 Menu..."
+    cp -r variant_menu/* "$THEME_DIR/"
 else
     echo "❌ Invalid choice. Exiting."
     exit 1
@@ -42,4 +46,4 @@ elif command -v grub-mkconfig &> /dev/null; then
     grub-mkconfig -o /boot/grub/grub.cfg
 fi
 
-echo "✅ Installation complete."
+echo "✅ Local installation complete."
