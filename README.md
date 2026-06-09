@@ -1,7 +1,26 @@
-half life
+Half-Life Inspired GRUB Themes
 
-orange variant:
-<img width="4096" height="3072" alt="preview1" src="https://github.com/user-attachments/assets/fe1bd21d-34cb-403a-bfbf-d034a689ae6e" />
+A retro and rather simple GRUB theme inspired by the HUD and aesthetics of the original Half-Life (1998).
 
-crimson variant:
-<img width="4096" height="3072" alt="preview2" src="https://github.com/user-attachments/assets/ae84a705-c9c5-44f1-99e8-8e428dbe94d6" />
+🎨 Variants
+
+    HL1 Menu
+    <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/99109c20-0a15-408d-9770-f724a3a01c7a" />
+
+    
+    Hazard Orange
+    <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6037942d-ee14-402f-8937-63397ed4db3f" />
+
+    Lambda Crimson
+    <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1461d9f9-87dd-4b63-b1fb-c88f93d56d58" />
+
+    
+### 🛠️ Installation
+
+```bash
+git clone https://github.com/kingkusuo/half-life-grub-theme
+cd half-life-grub-theme
+sudo ./install.sh
+```
+
+This theme was made for 1920x1080 displays.
