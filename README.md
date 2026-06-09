@@ -1,1 +1,1 @@
-# half-life-grub-theme
+half life
