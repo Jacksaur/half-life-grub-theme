@@ -9,7 +9,7 @@ echo "==========================================="
 echo "   Half-Life GRUB Theme Local Installer"
 echo "==========================================="
 echo "Select your theme variant:"
-echo "1) Half Life 1 Menu"
+echo "1) Half-Life 1 Menu"
 echo "2) Lambda Crimson"
 echo "3) Hazard Orange"
 read -p "Enter choice [1, 2, or 3]: " choice
@@ -25,7 +25,7 @@ elif [ "$choice" -eq 2 ]; then
     echo "⏳ Installing Lambda Crimson..."
     cp -r variant_crimson/* "$THEME_DIR/"
 elif [ "$choice" -eq 1 ]; then
-    echo "⏳ Installing Half Life 1 Menu..."
+    echo "⏳ Installing Half-Life 1 Menu..."
     cp -r variant_menu/* "$THEME_DIR/"
 else
     echo "❌ Invalid choice. Exiting."
