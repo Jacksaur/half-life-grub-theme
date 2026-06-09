@@ -1,4 +1,4 @@
-# Half-Life GRUB Theme - Menu Variant
+# Half-Life 1 GRUB Theme - Menu Variant
 title-text: ""
 desktop-image: "background.png"
 desktop-color: "#000000"
