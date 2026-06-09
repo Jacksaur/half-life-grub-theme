@@ -1,4 +1,4 @@
-# Half-Life GRUB Theme - Hazard Orange Variant
+# Half-Life 1 GRUB Theme - Hazard Orange Variant
 title-text: ""
 desktop-image: "background.png"
 desktop-color: "#000000"
