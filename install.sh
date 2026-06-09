@@ -5,9 +5,9 @@ if [ "$EUID" -ne 0 ]; then
   exit 1
 fi
 
-echo "==========================================="
-echo "   Half-Life GRUB Theme Local Installer"
-echo "==========================================="
+echo "===================================="
+echo "   Half-Life GRUB Theme Installer"
+echo "===================================="
 echo "Select your theme variant:"
 echo "1) Half-Life 1 Menu"
 echo "2) Lambda Crimson"
