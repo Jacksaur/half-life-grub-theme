@@ -16,6 +16,7 @@ Lambda Crimson
 ```bash
 git clone https://github.com/kingkusuo/half-life-grub-theme
 cd half-life-grub-theme
+chmod +x install.sh
 sudo ./install.sh
 ```
 
