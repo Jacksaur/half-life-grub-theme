@@ -21,4 +21,6 @@ chmod +x install.sh
 sudo ./install.sh
 ```
 
-This theme was made for 1920x1080 displays.
+Consider giving a ⭐ if you liked it
+
+This theme works best for 1920x1080 displays.
