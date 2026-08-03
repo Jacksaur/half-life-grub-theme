@@ -12,7 +12,8 @@ echo "Select your theme variant:"
 echo "1) Half-Life 1 Menu"
 echo "2) Lambda Crimson"
 echo "3) Hazard Orange"
-read -p "Enter choice [1, 2, or 3]: " choice
+echo "4) G-Man Green"
+read -p "Enter choice [1, 2, 3, or 4]: " choice
 
 THEME_DIR="/boot/grub/themes/half-life"
 rm -rf "$THEME_DIR"
@@ -27,6 +28,9 @@ elif [ "$choice" -eq 2 ]; then
 elif [ "$choice" -eq 1 ]; then
     echo "⏳ Installing Half-Life 1 Menu..."
     cp -r variant_menu/* "$THEME_DIR/"
+elif [ "$choice" -eq 4 ]; then
+    echo "⏳ Installing G-Man Green..."
+    cp -r variant_green/* "$THEME_DIR/"
 else
     echo "❌ Invalid choice. Exiting."
     exit 1
