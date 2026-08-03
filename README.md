@@ -5,14 +5,13 @@ A retro and rather simple GRUB theme inspired by the HUD and aesthetics of the o
 🎨 Variants:
 
 Half-Life 1 Menu
-    <img width="1916" height="1073" alt="image" src="https://github.com/user-attachments/assets/77160c05-295f-484c-a22b-1f028876a409" />
-
+    <img width="1920" height="1074" alt="image" src="https://github.com/user-attachments/assets/a43b45f2-7ce9-46e8-bf73-46e987d0d680" />
 Hazard Orange
-    <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6037942d-ee14-402f-8937-63397ed4db3f" />
+    <img width="1920" height="1074" alt="image" src="https://github.com/user-attachments/assets/de4d88d1-a5df-4464-b552-977d39efef07" />
 Lambda Crimson
-    <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1461d9f9-87dd-4b63-b1fb-c88f93d56d58" />
+    <img width="1920" height="1074" alt="image" src="https://github.com/user-attachments/assets/31011da6-0286-4291-9534-dfca34ab3d0f" />
 G-Man Green
-    <img width="1920" height="1079" alt="image" src="https://github.com/user-attachments/assets/eb36061f-5f37-42b2-850a-36b1bb61df97" />
+    <img width="1920" height="1075" alt="image" src="https://github.com/user-attachments/assets/e9494a57-e120-4b75-ba54-36c0b068e6fb" />
     
 ### 🛠️ Installation
 
@@ -26,3 +25,4 @@ sudo ./install.sh
 Consider giving a ⭐ if you liked it
 
 This theme works best for 1920x1080 displays.
+
