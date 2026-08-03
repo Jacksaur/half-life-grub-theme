@@ -6,7 +6,7 @@ desktop-color: "#000000"
 + boot_menu {
   left = 10%
   top = 60%
-  width = 60%
+  width = 30%
   height = 30%
   
   item_color = "#f3bb21"          # Your requested menu color
